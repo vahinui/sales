@@ -36,3 +36,14 @@ div.content {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
+/*-----FOOTER-----*/
+.footer {
+    font-size: 10px;
+    background-color: grey;
+    padding: 14px 16px;
+    color: white;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
