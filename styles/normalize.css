@@ -39,8 +39,8 @@ h1 {
     text-align: center;
 }
 div.content {
+    width: 100%;
     
-    padding: 1px 16px;
         
 }
 
@@ -76,6 +76,12 @@ div.desc {
     padding: 0 6px;
     float: left;
     width: 24.99999%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .bike {
